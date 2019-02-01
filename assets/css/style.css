@@ -1,8 +1,14 @@
 @import url("reset.css");
+
 body {
   font-size: 16px;
   font-family: Arial, Verdana, sans-serif;
   color; #000;
+}
+main{
+  margin: 0 0 0 50px;
+  position: relative;
+  background-color: rebeccapurple;
 }
 #lorem {
   background-color: #AC44E0;
@@ -11,8 +17,41 @@ body {
 #cras {
   background-color: #46E044;
   width: 400px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
 }
 #pellentesque {
   background-color: #E05944;
   width: 300px
+}
+header nav ul li {
+  display: inline-block;
+  width: 20%;
+  height: 80px;
+}
+header nav ul li a {
+  display: block;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+header nav ul li a:link {
+  color: #000;
+  background: #FFF;
+}
+header nav ul li a:visited:hover {
+  color: #999;
+  background: #666;
+}
+header nav ul li a:link:hover {
+  color: #FFF;
+  background: #000;
+}
+header nav ul li a:active {
+  color: #F00;
+  background: #000;
+}
+p::first-letter{
+  font-size: 3em;
 }
